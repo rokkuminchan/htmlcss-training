@@ -1,24 +1,27 @@
-h1 {
-  color: red;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-h6 {
-  color: red;
-  background-color: pink;
+
+.header-left {
+  text-align: center;
+  border-top: 2px solid #f8e4e4;
+  border-bottom: 2px solid #f8e4e4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 5px 2px 5px #888888;
 }
-p {
-  color: red;
-  background-color: white;
+
+.header-left a {
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
 }
-/* tien 
-h2{
-  background-color: rebeccapurple;
-}*/
-p {
-  color: red;
-  background-color: white;
-}
-h2 {
-}
-h5 {
-  color: red;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 30px;
 }

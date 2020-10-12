@@ -1,6 +1,7 @@
 h1 {
   color: red;
 }
+<<<<<<< HEAD
 h6 {
   color: red;
 }
@@ -8,3 +9,14 @@ p {
   color: red;
   background-color: white;
 }
+=======
+<<<<<<< HEAD
+/* tien */
+=======
+
+p{
+  color:red;
+  background-color: white;
+}
+>>>>>>> 1a0d1b2d7adfe0a5d9c74d53ca53b167f773c984
+>>>>>>> d83d5ef2c367815557207b465129a58ab3b3d952

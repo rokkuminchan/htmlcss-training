@@ -19,9 +19,9 @@ li a {
   color: wheat;
   text-decoration: none;
   text-align: center;
-  padding: 10px 5px;
+  padding: 2px;
   float: left;
-  width: 120px;
+  width: 50px;
 }
 a:link {
   text-decoration: none;
@@ -44,7 +44,7 @@ a:active {
 }
 .copyright {
   color: white;
-  font-size: 5px;
+  font-size: 8px;
   text-align: center;
 }
 .fb {
@@ -61,7 +61,6 @@ a:active {
   .socialnetwork {
     color: wheat;
     float: right;
-    padding: 14px 16px;
     width: 100%;
     text-align: center;
   }
@@ -71,9 +70,10 @@ a:active {
   .advertise_endpage,
   .about_endpage {
     text-align: justify;
-    padding: 10px 10px;
-    width: 120px;
-    height: 50px;
+    /* padding: 10px; */
+    width: 75px;
+    height: 20px;
+    font-size: 14px;
   }
   .footer_endpage {
     text-align: center;
@@ -93,7 +93,7 @@ a:active {
     text-align: center;
     padding: 20px 20px;
     width: 150px;
-    height: 70px;
+    height: 20px;
   }
 }
 /* Desktop */
@@ -110,7 +110,7 @@ a:active {
     text-align: center;
     padding: 20px 20px;
     width: 250px;
-    height: 100px;
+    height: 30px;
   }
 }
   /* html body {

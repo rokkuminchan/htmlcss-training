@@ -31,3 +31,94 @@
     padding: 1px;
   }
 }
+/* slide */
+.khoi__slide {
+  width: 70%;
+  margin: 17px auto;
+  position: relative;
+}
+img {
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.cac__slide {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.slide__active {
+  opacity: 1;
+  visibility: visible;
+}
+.nut span {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  font-weight: 700;
+  top: 45%;
+  cursor: pointer;
+}
+.prev {
+  left: 3%;
+}
+.next {
+  right: 3%;
+}
+.text__active {
+  color: white;
+  font-size: 1.4rem;
+  padding: 10px 12px;
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 1.4rem;
+  padding: 10px 12px;
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+.khoi__slide_bottom {
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  bottom: 0%;
+  display: flex;
+}
+#hanoi {
+  height: 70px;
+  opacity: 1;
+  flex: 1 1;
+  object-fit: cover;
+  cursor: pointer;
+}
+.khoi__slide_bottom img {
+  height: 70px;
+  opacity: 0.7;
+  flex: 1 1;
+  object-fit: cover;
+  cursor: pointer;
+}
+.number__text{
+  color: white;
+  font-size: 1.2em;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* script */
+

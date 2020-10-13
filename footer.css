@@ -35,7 +35,8 @@ a:active {
 }
 .socialnetwork {
   color: wheat;
-  float: right;
+  float: left;
+  padding: 25px 25px;
 }
 .clear {
   clear: both;

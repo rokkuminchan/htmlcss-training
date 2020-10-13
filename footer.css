@@ -15,7 +15,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   float: left;
-  width: 110px;
+  width: 120px;
   display: block;
 }
 a:link {
@@ -45,4 +45,10 @@ a:active {
   color: white;
   font-size: 5px;
   text-align: center;
+}
+.fb {
+  padding-right: 10px;
+}
+.tw {
+  padding-right: 10px;
 }

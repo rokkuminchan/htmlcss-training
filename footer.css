@@ -1,0 +1,54 @@
+footer {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: #1e2629;
+  float: left;
+  width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li a {
+  color: wheat;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  float: left;
+  width: 120px;
+  display: block;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: wheat;
+  text-decoration: none;
+}
+a :hover {
+  color: white;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+.socialnetwork {
+  color: wheat;
+  float: right;
+  padding: 14px 16px;
+}
+.clear {
+  clear: both;
+}
+.copyright {
+  color: white;
+  font-size: 5px;
+  text-align: center;
+}
+.fb {
+  padding-right: 10px;
+}
+.tw {
+  padding-right: 10px;
+}

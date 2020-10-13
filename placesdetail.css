@@ -1,0 +1,47 @@
+.detail-main {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: auto;
+  max-width: 700px;
+  padding: 20px 20px 0 20px;
+}
+
+span.vnplace {
+  color: #003f93;
+}
+
+h2.title {
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+span.time {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+.imgplaces {
+  width: 100%;
+}
+p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+li {
+  margin-left: 10px;
+  padding-top: 5px;
+}

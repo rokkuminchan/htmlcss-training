@@ -1,22 +1,27 @@
-footer {
+html body {
+  height: 100%;
+  position: relative;
+}
+.footer {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   background-color: #1e2629;
-  float: left;
   width: 100%;
+  position: absolute;
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  width: 100%;
 }
 li a {
   color: wheat;
   text-decoration: none;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2px;
   float: left;
-  width: 90px;
-  display: block;
+  width: 50px;
 }
 a:link {
   text-decoration: none;
@@ -33,15 +38,78 @@ a:active {
   color: blue;
   text-decoration: underline;
 }
-.socialnetwork {
-  color: wheat;
-  float: right;
-}
+
 .clear {
   clear: both;
 }
 .copyright {
   color: white;
-  font-size: 5px;
+  font-size: 8px;
   text-align: center;
+}
+.fb {
+  padding-right: 10px;
+}
+.tw {
+  padding-right: 10px;
+}
+.cont {
+  padding-right: 10px;
+}
+/* Mobile */
+@media screen and (min-width: 320px) {
+  .socialnetwork {
+    color: wheat;
+    float: right;
+    width: 100%;
+    text-align: center;
+  }
+  .home_endpage,
+  .license_endpage,
+  .contactus_endpage,
+  .advertise_endpage,
+  .about_endpage {
+    text-align: justify;
+    /* padding: 10px; */
+    width: 70px;
+    height: 20px;
+    font-size: 14px;
+  }
+  .footer_endpage {
+    text-align: center;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .socialnetwork {
+    width: 100%;
+    text-align: center;
+  }
+  .home_endpage,
+  .license_endpage,
+  .contactus_endpage,
+  .advertise_endpage,
+  .about_endpage {
+    text-align: center;
+    padding: 20px 20px;
+    width: 100px;
+    height: 20px;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .socialnetwork {
+    width: 100%;
+    text-align: center;
+  }
+  .home_endpage,
+  .license_endpage,
+  .contactus_endpage,
+  .advertise_endpage,
+  .about_endpage {
+    text-align: center;
+    padding: 20px 20px;
+    width: 200px;
+    height: 30px;
+  }
 }
